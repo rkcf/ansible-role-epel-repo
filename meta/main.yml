@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: Andrew steinke
+  description: Role to setup EPEL Repository
+
+  license: MIT
+
+  min_ansible_version: 2.7
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+  galaxy_tags:
+    - packaging
+    - system

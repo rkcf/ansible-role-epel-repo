@@ -1,0 +1,10 @@
+---
+- name: install EPEL repo
+  yum:
+    name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    state: present
+
+- name: install EPEL GPG key
+  rpm_key:
+    key: http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-7
+    state: present
