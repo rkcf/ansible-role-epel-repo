@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: epel-repo
   author: Andrew steinke
   description: Role to setup EPEL Repository
 
