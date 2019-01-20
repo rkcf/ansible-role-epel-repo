@@ -1,4 +1,4 @@
-Ansible Role: epel-repo
+Ansible Role: epel_repo
 =========
 
 Ansible role to install EPEL repo for EL distros
@@ -23,7 +23,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - rkcf.epel-repo
+         - rkcf.epel_repo
 
 License
 -------
